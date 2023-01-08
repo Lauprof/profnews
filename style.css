@@ -58,7 +58,7 @@ display:block;
 #nav:hover h1{
   display: block;
   text-shadow: 1.2px 1px teal;
-  z-index: 4;
+  
 }
  #nav:hover #sp{
 display:none;
