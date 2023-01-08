@@ -188,7 +188,6 @@ display: block;
  
   padding:10px;
   border:1px solid salmon;
-  /*box-shadow: 15px 18px 14px 19px lightblue;*/
   border-radius: 10px;
   transform: rotateZ(-2deg)
 }
