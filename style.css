@@ -12,7 +12,14 @@ right:0%;
 
 }
 
-
+h1{
+  color:red;
+  text-align: center;
+  font-family: cursive;
+  text-shadow: 1.2px 1px white;
+  font-size: 2em;
+  
+}
 #nav{
 position:relative;
 display:inline-block;
@@ -46,6 +53,12 @@ overflow:auto;
 .navigation:hover ul {
 
 display:block;
+}
+
+#nav:hover h1{
+  display: block;
+  text-shadow: 1.2px 1px teal;
+  z-index: 4;
 }
  #nav:hover #sp{
 display:none;
@@ -227,6 +240,11 @@ footer p a{
   #nav{
     
     height:150px;
+    
+  }
+  h1{
+    
+    font-size: 5em;
     
   }
   
