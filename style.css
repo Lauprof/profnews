@@ -39,8 +39,6 @@ display:block;
 list-style-type:none;
 margin:0;
 padding:0;
-border:1px solid black;
-border-radius:0px;
 color:white;
 background-color:black;
 display:none;
@@ -77,12 +75,22 @@ border-width: 0.5px;
 font-size: 15px;
 border-bottom-color: white;
 padding:20px 0 20px 0px;
-font-family:sans-serif;
+font-family:monospace;
+text-align: center;
 
 }
+#nav ul li:nth-child(even){
+  background-color: pink;
+  
+}
+#nav ul li:nth-child(odd){
+  background-color:black;
+  
+}
+
 #nav li a.link {
   background-color: black;
-  color: white;
+  color:white;
 }
 
 #nav ul li a:hover:not(.link) {
