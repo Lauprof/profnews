@@ -11,7 +11,13 @@ float:right;
 right:0%;
 
 }
-
+#icons i{
+  padding: 20px;
+}
+#icons{
+  background-color: black;
+  
+}
 h1{
   color:red;
   text-align: center;
@@ -58,6 +64,11 @@ display:block;
   text-shadow: 1.2px 1px teal;
   
 }
+
+  
+  
+  
+
  #nav:hover #sp{
 display:none;
 }
@@ -243,7 +254,7 @@ footer p a{
   
 }
 @media only screen and (min-width:788px){
-  
+ 
   #nav{
     
     height:150px;
@@ -253,6 +264,9 @@ footer p a{
     
     font-size: 5em;
     
+  }
+  #icons i{
+    padding: 55px;
   }
   
   
