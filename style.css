@@ -267,8 +267,24 @@ footer p a{
  
   #nav{
     
-    height:150px;
+    height:180px;
     
+  }
+  textarea{
+width:90%;
+padding:0px;
+}
+input[type=submit],input[type=reset]{
+font-size:35px;
+padding:25px;
+
+
+}
+  input[type=submit]{
+    left:0%;
+  }
+  input[type=reset]{
+    left:0%;
   }
   h1{
     
@@ -406,7 +422,7 @@ padding:8px;
 }
 input[type=submit]{
 position:relative;
-left:40%;
+
 
 }
 input[type=text],input[type=email]{
