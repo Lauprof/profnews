@@ -305,6 +305,24 @@ footer p a{
     
     
   }
+  input[type=submit],input[type=reset]{
+font-size:35px;
+padding:25px;
+
+
+}
+input[type=text],input[type=email]{
+  padding:30px;
+  font-size: 35px;
+  width:60%;
+  
+}
+
+textarea{
+width:90%;
+padding:0px;
+}
+
   #item a {
     font-size: 35px;
     
@@ -322,3 +340,76 @@ footer p{
   padding:40px;
 }
 }
+form{
+width:100%;
+background-color: lightblue;
+}
+
+label{
+font-size:1.5em;
+text-align: center;
+font-family: cursive;
+color:black;
+text-shadow:1.2px 1.1px red;
+}
+textarea{
+width: 90%;
+margin:10px;
+background-color:white;
+border-radius:15px;
+color:black;
+cursor: pointer;
+padding: 10px;
+}
+textarea:focus{
+outline:none;
+border-color:blue;
+
+}
+input[type=text]:focus{
+  outline:none;
+  border:none;
+  border-radius:0px;
+  border-bottom: groove;
+  border-bottom-color: grey;
+  
+  
+}
+input[type=email]:focus{
+  outline:none;
+  border:none;
+  border-radius:0px;
+  border-bottom: groove;
+  border-bottom-color: grey;
+  
+  
+}
+input[type=submit],input[type=reset]{
+border:1.2px groove ghostwhite;
+color:white;
+font-size: 20px;
+background-color:red;
+border-radius:10px;
+padding:5px;
+
+}
+input[type=submit]{
+position:relative;
+left:40%;
+
+}
+input[type=text],input[type=email]{
+padding:10px;
+
+border: 1px inset darkslateblue;
+border-radius: 14px;
+width: 90%;
+margin-top: 10px;
+
+}
+input[type=reset]{
+position:relative;
+left:3%;
+
+}
+
