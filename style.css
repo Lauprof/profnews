@@ -23,14 +23,21 @@ h1{
   text-align: center;
   font-family: cursive;
   text-shadow: 1.2px 1px white;
-  font-size: 1.7em;
+  font-size: 1.9em;
   
+}
+#time{
+  text-align: center;
+  color:white;
+  font-size: 20px;
+  text-shadow: 1.1px 1px red;
+  font-family:cursive;
 }
 #nav{
 position:relative;
 display:inline-block;
 width:100%;
-height:110px;
+height:140px;
 background-image:linear-gradient(to right,black,orange,teal);
 right:0%;
 z-index:2;
@@ -65,7 +72,10 @@ display:block;
   
 }
 
-  
+#nav:hover #time{
+color:red;
+text-shadow: 1.1px 1px lightskyblue;
+}
   
   
 
@@ -208,7 +218,7 @@ display: block;
   padding:10px;
   border:1px solid salmon;
   border-radius: 10px;
-  transform: rotateZ(-2deg)
+  transform: rotateX(-2deg);
 }
 #item img{
   width:100%;
@@ -386,11 +396,12 @@ input[type=email]:focus{
 }
 input[type=submit],input[type=reset]{
 border:1.2px groove ghostwhite;
-color:white;
-font-size: 20px;
-background-color:red;
+color:red;
+font-size: 21px;
+background-color:white;
+font-family:cursive;
 border-radius:10px;
-padding:5px;
+padding:8px;
 
 }
 input[type=submit]{
@@ -405,11 +416,6 @@ border: 1px inset darkslateblue;
 border-radius: 14px;
 width: 90%;
 margin-top: 10px;
-
-}
-input[type=reset]{
-position:relative;
-left:3%;
 
 }
 
