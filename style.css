@@ -280,6 +280,9 @@ padding:25px;
 
 
 }
+#time{
+  display: none;
+}
   input[type=submit]{
     left:0%;
   }
@@ -292,7 +295,8 @@ padding:25px;
     
   }
   #icons i{
-    padding: 45px;
+    padding: 65px;
+    font-size: 4em;
   }
   
   
