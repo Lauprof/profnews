@@ -60,12 +60,13 @@ width:100%;
 overflow:auto;
 
 }
+/*
 
 .navigation:hover ul {
 
 display:block;
 }
-
+*/
 #nav:hover h1{
   display: block;
   text-shadow: 1.2px 1px teal;
@@ -78,10 +79,11 @@ text-shadow: 1.1px 1px lightskyblue;
 }
   
   
-
+/*
  #nav:hover #sp{
 display:none;
 }
+*/
 #nav:hover{
 width:100%;
 }
